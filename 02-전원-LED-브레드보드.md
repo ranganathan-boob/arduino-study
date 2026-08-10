@@ -180,7 +180,13 @@ LED는 자제력이 없다. 2.0V에서 20mA인데 2.2V만 돼도 100mA를 넘긴
 
 > 초보 키트 양대 산맥: **220Ω**(LED용), **10kΩ**(버튼 풀업/풀다운용)
 
+
+https://github.com/user-attachments/assets/40ba5adb-d2e8-4f5d-a819-2f372e861f73
+
+
 ---
+
+
 
 ## 5. 디지털 신호 입출력
 
@@ -229,6 +235,11 @@ LOW  = 꺼짐 = 0V 출력
 - 들어오는 쪽(LED): 20mA 넘게 안 먹게
 
 > **LED 있는 곳엔 무조건 저항 하나. 예외 없음.**
+
+
+https://github.com/user-attachments/assets/da371913-d62d-4d63-b2e4-4d3847a0d0de
+<img width="1480" height="912" alt="아두이노로 LED제어하기  소스코드" src="https://github.com/user-attachments/assets/52d2ed7e-b807-41f0-bdeb-80416fbe771f" />
+
 
 ---
 
@@ -290,11 +301,8 @@ void loop() {
 
 감지가 잘 안 되면 시리얼 모니터로 val 값을 확인하면서 센서의 가변저항으로 딜레이와 감지 범위를 조절한다.
 
----
 
-## 아직 확인 안 한 것
+https://github.com/user-attachments/assets/d977d6a2-4004-4d29-949e-768b39f37899
 
-- [ ] LED를 동시에 몇 개까지 켤 수 있나? (핀당 40mA vs 보드 전체 200mA — 어느 쪽으로 나눠야 하나)
-- [ ] 220Ω 대신 10kΩ을 쓰면 어떻게 되나
-- [ ] 아날로그 입출력 / PWM
-- [ ] 트랜지스터로 모터 제어하기
+
+
