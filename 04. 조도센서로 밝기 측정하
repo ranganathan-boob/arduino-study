@@ -258,7 +258,7 @@ if (val < 300) {              // 기준보다 어두우면
 - [ ] 시리얼 모니터 우측 통신속도를 **9600**으로 맞추기 (`Serial.begin(9600)`과 일치해야 글자가 안 깨짐)
 
 ---
-
+https://github.com/user-attachments/assets/4d4e2e9e-13d2-4757-8398-35614d226de2
 
 ---
 
